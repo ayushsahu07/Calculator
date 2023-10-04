@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+body{
+  /* background-color: #121282; */
+  background-image: url("https://wallpaper.dog/large/10812328.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15px;
+}
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto Slab', serif;
+}
+
+.button {
+  padding: 18px;
+  width: 72px;
+  margin: 3px 3px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 26px;
+  font-style: oblique;
+  font-weight: 500;
+}
+
+.row {
+  margin: 8px, 0;
+}
+
+.row input {
+  font-size: 25px;
+  margin: 7px;
+  padding: 10px 7px;
+  border: 3px solid black;
+  border-radius: 8px;
+}
